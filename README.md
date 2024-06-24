@@ -1,40 +1,30 @@
-El presente repositorio contiene el código con el cual construyo la solución a la prueba del módulo 4 llamado **Programación avanzada en JavaScript** de la beca **Desarrollo de aplicaciones Full Stack Javascript Trainee** dictado por Desafío Latam
+Repositorio con el código de:
+Prueba / módulo 4 llamado **"Programación avanzada en JavaScript"** de la beca **"Desarrollo de aplicaciones Full Stack Javascript Trainee"** dictado por Desafío Latam.
 
-Las tecnologías que he utilizando son las siguientes:
-
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white)
-
-Los requisitos del proyecto los muestro en las siguientes imagenes:
+<h1>REQUISITOS</h1> 
 
 ![Requisitos Hoja 1 y 2](./assets/imgs/screenshots/requisitos_uno_dos.webp)
 ![Requisitos Hoja 3 y 4](./assets/imgs/screenshots/requisitos_tres_cuatro.webp)
 ![Requisitos Hoja 5](./assets/imgs/screenshots/requisitos_cinco.webp)
 
-Mi proyecto es completamente responsivo. A continuación muestro screenshots del proyecto en pantallas grandes y pequeñas:
+PASO a PASO DE LOS **REQUISITOS**:
 
-### 1. Screenshot pantallas grandes
-
-![Screenshot pantallas grandes](./assets/imgs/screenshots/screenshots_big_screen.webp)
-
-### 2. Screenshot pantallas small
-
-![Screenshot pantallas small](./assets/imgs/screenshots/screenshot_small_screen.webp)
-
-A continuación muestro code snippet de mis implementaciones de los requisitos:
-
-### 1. Crear las clases representadas en el diagrama implementando la herencia indicada.
+### 1. Crear clases representadas en el diagrama implementando su herencia indicada:
 
 ![Código de las Clases](./assets/imgs/screenshots/code_clases.webp)
 
-### 2. Crear las instancias de las clases utilizando los datos del formulario.
+### 2. Crear instancias de las clases utilizando los datos del formulario.
 
-Creo la instancia una vez que recibo la data del formulario de manera dinámica como muestro en la línea 5.
+Creo la instancia una vez que recibo la data del formulario de manera dinámica como muestro en la línea 5:
 
 ![Código Creación de Instancias](./assets/imgs/screenshots/code_instancias.webp)
 
-### 3. Realizar una consulta asíncrona utilizando una función async/await para obtener las imágenes correspondientes a los animales
+### 3. Realizar una consulta asíncrona utilizando una función async/await para obtener las imágenes correspondientes a los animales:
 
-Realizo una IIFE (Immediately Invoked Function Expression) que hace fetch a la data almacenada en el archivo **animales.json**. Dicho archivo lo he modificado solo en relación al tipo de archivo. Luego de cargada la data, procedo a almacenarla en una variable global. Dicha variable global la usaré para crear un objeto el cual posee la **clase respectiva** a la que pertenece el animal y esta clase la utilizo para crear la instancia.
+Realizo una IIFE [Immediately Invoked Function Expression] que hace fetch a la data almacenada en el archivo **animales.json**. 
+
+Dicho archivo lo he modificado solo en relación al tipo de archivo. Luego de cargada la data, procedo a almacenarla en una variable global.
+Dicha variable global la usaré para crear un objeto el cual posee la **clase respectiva** a la que pertenece el animal y esta clase la utilizo para crear la instancia.
 
 ![Código Consulta a animales.json](./assets/imgs/screenshots/code_consulta_asincrona.webp)
 
