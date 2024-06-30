@@ -23,32 +23,32 @@ Creo la instancia una vez que recibo la data del formulario de manera dinámica 
 
 Realizo una IIFE [Immediately Invoked Function Expression] que hace fetch a la data almacenada en el archivo **animales.json**. 
 
-Dicho archivo lo he modificado solo en relación al tipo de archivo. Luego de cargada la data, procedo a almacenarla en una variable global.
-Dicha variable global la usaré para crear un objeto el cual posee la **clase respectiva** a la que pertenece el animal y esta clase la utilizo para crear la instancia.
+Luego de cargada la data, procedo a almacenarla en una variable global.
+La variable global se utiliza para crear un objeto que posee la **clase respectiva** a la que pertenece el animal y esta clase se usa para crear la instancia.
 
 ![Código Consulta a animales.json](./assets/imgs/screenshots/code_consulta_asincrona.webp)
 
 ### 4. Realizar por lo menos una función autoejecutable IIFE
 
-El código que muestro en el punto 3 anterior es IIFE
+El código en el punto 3 anterior es IIFE
 
 ### 5. Dividir el código en módulos
 
-He creado el archivo **modulos.js** el cual posee todas las clases para luego exportarlas y crear objetos en el archivo **script.js**
+Archivo **modulos.js** el cual posee todas las clases para luego exportarlas y crear objetos en el archivo **script.js**
 
 ### 6. Utilizar la manipulación del DOM para mostrar en la tabla los animales registrados con el formulario.
 
-Para mostrar el animal en el canvas izquierdo he creado la función **mostrarAnimalAgregado** la cual posee como parámetro el objeto creado al completar los campos del formulario y al hacer click en el botón **Agregar** del formulario.
+Para mostrar el animal en el canvas izquierdo se crea la función **mostrarAnimalAgregado** la cual posee como parámetro el objeto creado al completar los campos del formulario y al hacer click en el botón **Agregar** del formulario.
 
 ![Código Mostrar en Canvas](./assets/imgs/screenshots/code_mostrar_animal.webp)
 
 ### 7. Validar que el usuario haya asignado todos los datos del animal antes de que éste sea agregado a la tabla. (Opcional)
 
-He utilizado validez en el html no permitiendo el ingreso de valores en blanco ya sea en los select y en el textarea vía atributo **required**
+Se aplica validación en html no permitiendo el ingreso de valores en blanco ya sea en 'los select' y en el 'textarea' vía atributo **required**
 
 ### 8. Devolver el formulario en un estado inicial luego de registrar a cada animal. (Opcional)
 
-Para resetear el formulario he creado la función **resetearFormulario** la cual presenta como parámetros los input del formulario los cuales luego sus valores son seateados a una cadena vacía
+Para resetear formulario se crea la función **resetearFormulario** la cual presenta como parámetros los input del formulario los cuales luego sus valores son configurados a una cadena vacía
 
 ![Código Reset Formulario](./assets/imgs/screenshots/code_reset_formulario.webp)
 
@@ -60,14 +60,14 @@ Para reproducir audio de cada animal he creado la función **reproducirSonido**:
 
 ### 10. Mostrar el detalle de cada animal en una ventana modal al ser presionada su imagen. (Opcional)
 
-Para mostrar el modal he creado la función **cargarModal** siguiente:
+función **cargarModal** para mostrar Modal, es el siguiente:
 
 ![Código Cargar Modal](./assets/imgs/screenshots/code_modal.webp)
 
-La siguiente imagen muestra el modal operando:
+Modal operando:
 
 ![Screenshot Modal](./assets/imgs/screenshots/screenshot_modal.webp)
 
-Por último, además implementé la funcionalidad de eliminar los elementos ya agregados al canvas creando la función **controlEliminarAnimal** siguiente:
+Funcionalidad para eliminar los elementos ya agregados al canvas, con la función **controlEliminarAnimal**:
 
 ![Código Eliminar Animal](./assets/imgs/screenshots/code_eliminar_animal.webp)
